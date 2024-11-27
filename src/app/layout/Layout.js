@@ -6,14 +6,14 @@ import LeftSidebar from "./LeftSidebar";
 
 const layoutStyle = {
   display: "flex",
-  flexDirection: "column", // Stack items vertically
-  minHeight: "100vh", // Make sure the layout covers the full height of the viewport
+  flexDirection: "row", // Stack items in row
+  minHeight: "50vh", // Make sure the layout covers the full height of the viewport
 };
 
 const contentStyle = {
   flex: 1,
-  marginTop: "20px", // Adjust the top margin based on your header's height,
-  marginLeft: 150,
+  marginTop: "10px", // Adjust the top margin based on your header's height,
+  marginLeft: 350,
 };
 
 const Layout = ({ children }) => {
