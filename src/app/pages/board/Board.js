@@ -85,7 +85,6 @@ function Board() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
-          backgroundColor: "white",
             backgroundImage: `url(${backgroundImage})`,
             backgroundSize: "cover",
             backgroundPosition: "center center",
@@ -101,7 +100,7 @@ function Board() {
           right: 150,
         }}
       >
-        <Header style={{ marginTop: 2 }} as="h2">
+        <Header style={{ marginTop: 2 , color:"white"}} as="h2">
           {board?.title}
         </Header>
         <Button style={{

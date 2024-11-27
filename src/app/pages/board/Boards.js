@@ -226,7 +226,8 @@ const Boards = () => {
           </div>
 
           <Modal open={openModal} onClose={() => setOpenModal(false)} size="tiny">
-            <Modal.Header>
+            <Modal.Header style={{
+              background: "linear-gradient(90deg, #e66465, #9198e5)",}}>
               {isEditing ? "Edit Board" : "Create a New Board"}
             </Modal.Header>
             <Modal.Content>
