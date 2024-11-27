@@ -49,7 +49,7 @@ function AddCardModal({ open, onClose, onAddCard, columnId, users }) {
       setSuccess("Card added successfully!"); // Set the success message
     } catch (error) {
       console.error("Error adding card: ", error);
-      setError("Error adding card. Please try again."); // Set an error message
+      setError("Error adding card.... Please try again...."); // Set an error message
     }
   };
 
@@ -69,7 +69,7 @@ function AddCardModal({ open, onClose, onAddCard, columnId, users }) {
           <Form.Field>
             <label>Title</label>
             <Input
-              placeholder="Enter title"
+              placeholder="Enter Title"
               value={cardTitle}
               onChange={(e) => setCardTitle(e.target.value)}
             />
@@ -77,7 +77,7 @@ function AddCardModal({ open, onClose, onAddCard, columnId, users }) {
           <Form.Field>
             <label>Description</label>
             <Input
-              placeholder="Enter description"
+              placeholder="Enter Description"
               value={cardDescription}
               onChange={(e) => setCardDescription(e.target.value)}
             />
